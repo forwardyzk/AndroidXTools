@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">XTools</string>
+    <string name="toast">欢迎来自%1$s的%2$s</string>
 </resources>
