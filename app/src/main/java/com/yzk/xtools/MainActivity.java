@@ -1,7 +1,9 @@
-package com.test.demo.xtools;
+package com.yzk.xtools;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.yzk.xtools.xtools.R;
 
 public class MainActivity extends AppCompatActivity {
 
