@@ -23,9 +23,11 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation deps.support.design
     implementation deps.support.recyclerview
     implementation deps.support.cardview
     implementation deps.support.constraint
+    implementation deps.retrofit.gson
+
 }

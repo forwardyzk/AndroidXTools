@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mAdater.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(RecyclerView.ViewHolder holder, View view, int position) {
-                ToastUtil.showToast(mAdater.getItem(position).aClass.getSimpleName());
+                ToastUtil.showLongToast(mAdater.getItem(position).utilName);
             }
         });
 

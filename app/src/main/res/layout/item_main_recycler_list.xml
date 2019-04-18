@@ -9,7 +9,8 @@
         android:id="@+id/item_main_tv"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:gravity="center"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
         android:textColor="@android:color/black"
         android:textSize="16sp"
         tools:text="工具" />
