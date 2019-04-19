@@ -1,0 +1,25 @@
+def build_versions = [:]
+build_versions.compile_sdk = 27
+build_versions.min_sdk = 16
+build_versions.target_sdk = 22
+build_versions.versionCode = 100
+build_versions.versionName = "1.0.0"
+ext.build_versions = build_versions
+
+ext.deps = [:]
+
+// support
+def support_version = "27.1.1"
+def support = [:]
+support.design = "com.android.support:design:$support_version"
+support.recyclerview = "com.android.support:recyclerview-v7:$support_version"
+support.cardview = "com.android.support:cardview-v7:$support_version"
+support.constraint = "com.android.support.constraint:constraint-layout:1.1.3"
+deps.support = support
+//implementation 'com.google.code.gson:gson:2.8.5'
+
+// retrofit
+def retrofit_version = "2.8.5"
+def retrofit = [:]
+retrofit.gson = "com.google.code.gson:gson:$retrofit_version"
+deps.retrofit = retrofit
