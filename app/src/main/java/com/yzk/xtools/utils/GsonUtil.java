@@ -23,7 +23,7 @@ import java.util.Map;
 public class GsonUtil {
 
     public static final String UTIL_DESC = "Gson解析Json工具类";
-    public static final String UTIL_NAME = GsonUtil.class.getName();
+    public static final String UTIL_NAME = GsonUtil.class.getSimpleName();
 
 
     private static Gson gson = new Gson();

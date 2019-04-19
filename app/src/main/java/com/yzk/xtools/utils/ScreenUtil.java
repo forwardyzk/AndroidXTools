@@ -17,7 +17,7 @@ import android.view.WindowManager;
  */
 public class ScreenUtil {
     public static final String UTIL_DESC = "屏幕工具类";
-    public static final String UTIL_NAME = ScreenUtil.class.getName();
+    public static final String UTIL_NAME = ScreenUtil.class.getSimpleName();
     /**
      * 获得屏幕宽度
      *

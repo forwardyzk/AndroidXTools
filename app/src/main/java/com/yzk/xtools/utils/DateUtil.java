@@ -15,7 +15,7 @@ public class DateUtil {
 
 
 	public static final String UTIL_DESC = "日期管理工具类";
-	public static final String UTIL_NAME = DateUtil.class.getName();
+	public static final String UTIL_NAME = DateUtil.class.getSimpleName();
 
 
 	private DateUtil() {

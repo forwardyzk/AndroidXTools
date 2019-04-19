@@ -12,7 +12,7 @@ import java.util.Stack;
 public class AppManager {
 
     public static final String UTIL_DESC = "Activity管理工具类";
-    public static final String UTIL_NAME = AppManager.class.getName();
+    public static final String UTIL_NAME = AppManager.class.getSimpleName();
 
     private static AppManager instance;
     private Stack<Activity> activityStack = new Stack<Activity>();

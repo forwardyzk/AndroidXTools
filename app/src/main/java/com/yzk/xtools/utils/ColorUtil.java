@@ -10,7 +10,7 @@ import android.graphics.Color;
 public class ColorUtil {
 
     public static final String UTIL_DESC = "颜色工具类";
-    public static final String UTIL_NAME = ColorUtil.class.getName();
+    public static final String UTIL_NAME = ColorUtil.class.getSimpleName();
 
 
     private ColorUtil() {

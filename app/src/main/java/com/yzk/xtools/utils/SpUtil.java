@@ -16,7 +16,7 @@ import java.util.Map;
 public class SpUtil {
 
     public static final String UTIL_DESC = "SharedPreferences工具类";
-    public static final String UTIL_NAME = SpUtil.class.getName();
+    public static final String UTIL_NAME = SpUtil.class.getSimpleName();
 
 
     private static SharedPreferences spUtils;

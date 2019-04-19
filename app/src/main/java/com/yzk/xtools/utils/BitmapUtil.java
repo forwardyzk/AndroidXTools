@@ -24,7 +24,7 @@ public class BitmapUtil {
 
 
     public static final String UTIL_DESC = "BitMap管理工具类";
-    public static final String UTIL_NAME = BitmapUtil.class.getName();
+    public static final String UTIL_NAME = BitmapUtil.class.getSimpleName();
 
 
     private BitmapUtil() {

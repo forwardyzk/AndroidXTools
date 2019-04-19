@@ -16,7 +16,7 @@ import java.lang.ref.WeakReference;
 public final class ToastUtil {
 
     public static final String UTIL_DESC = "吐司工具类";
-    public static final String UTIL_NAME = ToastUtil.class.getName();
+    public static final String UTIL_NAME = ToastUtil.class.getSimpleName();
     private static WeakReference<Toast> sToastRef;
 
     private ToastUtil() {

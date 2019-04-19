@@ -25,7 +25,7 @@ import java.util.Enumeration;
  */
 public class MacAddressUtil {
     public static final String UTIL_DESC = "MAc地址工具类";
-    public static final String UTIL_NAME = MacAddressUtil.class.getName();
+    public static final String UTIL_NAME = MacAddressUtil.class.getSimpleName();
 
     private static final String TAG = "MacAddressUtil";
 

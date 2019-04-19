@@ -11,7 +11,7 @@ import android.view.KeyEvent;
 public class ExitActivityUtil {
 
     public static final String UTIL_DESC = "退出Activity工具类";
-    public static final String UTIL_NAME = ExitActivityUtil.class.getName();
+    public static final String UTIL_NAME = ExitActivityUtil.class.getSimpleName();
 
 
     private long exitTime = 0;

@@ -19,7 +19,7 @@ import com.yzk.xtools.app.ToolsApplication;
  */
 public class ResourceUtil {
     public static final String UTIL_DESC = "Resource工具类";
-    public static final String UTIL_NAME = ResourceUtil.class.getName();
+    public static final String UTIL_NAME = ResourceUtil.class.getSimpleName();
 
 
     private ResourceUtil() {

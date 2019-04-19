@@ -14,7 +14,7 @@ import android.widget.EditText;
  */
 public class KeyboardUtil {
     public static final String UTIL_DESC = "软键盘工具类";
-    public static final String UTIL_NAME = KeyboardUtil.class.getName();
+    public static final String UTIL_NAME = KeyboardUtil.class.getSimpleName();
 
     /**
      * 动态隐藏软键盘

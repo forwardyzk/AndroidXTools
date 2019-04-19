@@ -13,7 +13,7 @@ import java.io.IOException;
 public final class IOCloseUtil {
 
     public static final String UTIL_DESC = "IO流关闭工具类";
-    public static final String UTIL_NAME = IOCloseUtil.class.getName();
+    public static final String UTIL_NAME = IOCloseUtil.class.getSimpleName();
 
 
     private IOCloseUtil() {

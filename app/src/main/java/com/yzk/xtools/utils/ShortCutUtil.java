@@ -19,7 +19,7 @@ import com.yzk.xtools.R;
 public class ShortCutUtil {
 
     public static final String UTIL_DESC = "App快捷图标工具类";
-    public static final String UTIL_NAME = ShortCutUtil.class.getName();
+    public static final String UTIL_NAME = ShortCutUtil.class.getSimpleName();
 
     private ShortCutUtil() {
         throw new Error("Do not need instantiate!");

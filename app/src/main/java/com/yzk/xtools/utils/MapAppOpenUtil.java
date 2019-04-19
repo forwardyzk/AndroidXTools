@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class MapAppOpenUtil {
     public static final String UTIL_DESC = "启动地图工具类";
-    public static final String UTIL_NAME = MapAppOpenUtil.class.getName();
+    public static final String UTIL_NAME = MapAppOpenUtil.class.getSimpleName();
 
     public static String[] mapPacks = new String[]{
             "com.autonavi.minimap",//高德地图包名

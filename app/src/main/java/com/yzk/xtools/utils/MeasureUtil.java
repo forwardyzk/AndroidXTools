@@ -17,7 +17,7 @@ public class MeasureUtil {
 
 
     public static final String UTIL_DESC = "测量View工具类";
-    public static final String UTIL_NAME = MeasureUtil.class.getName();
+    public static final String UTIL_NAME = MeasureUtil.class.getSimpleName();
 
 
     private MeasureUtil() {

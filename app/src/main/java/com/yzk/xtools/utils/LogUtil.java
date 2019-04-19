@@ -11,7 +11,7 @@ import java.util.Formatter;
  */
 public final class LogUtil {
     public static final String UTIL_DESC = "日志管理器工具类";
-    public static final String UTIL_NAME = LogUtil.class.getName();
+    public static final String UTIL_NAME = LogUtil.class.getSimpleName();
 
     public static void init(boolean debug, String tag) {
         sDebug = debug;

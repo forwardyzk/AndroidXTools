@@ -2,6 +2,8 @@ package com.yzk.xtools.utils;
 
 import android.annotation.SuppressLint;
 
+import com.yzk.xtools.utils.sup.MemoryConstant;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +27,7 @@ import java.util.List;
 
 public final class FileUtil {
     public static final String UTIL_DESC = "文件管理类";
-    public static final String UTIL_NAME = FileUtil.class.getName();
+    public static final String UTIL_NAME = FileUtil.class.getSimpleName();
 
     private FileUtil() {
         throw new UnsupportedOperationException("u can't instantiate me...");

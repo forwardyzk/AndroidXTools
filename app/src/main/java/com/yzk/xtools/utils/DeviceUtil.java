@@ -26,7 +26,7 @@ import java.util.List;
 public class DeviceUtil {
 
     public static final String UTIL_DESC = "设备管理器工具类";
-    public static final String UTIL_NAME = DeviceUtil.class.getName();
+    public static final String UTIL_NAME = DeviceUtil.class.getSimpleName();
 
 
     /**

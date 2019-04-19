@@ -22,7 +22,7 @@ import java.io.InputStream;
  */
 public class ImageUtil {
     public static final String UTIL_DESC = "图片管理工具类";
-    public static final String UTIL_NAME = ImageUtil.class.getName();
+    public static final String UTIL_NAME = ImageUtil.class.getSimpleName();
 
 
     /**

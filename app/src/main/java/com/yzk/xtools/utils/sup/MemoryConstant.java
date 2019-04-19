@@ -1,4 +1,4 @@
-package com.yzk.xtools.utils;
+package com.yzk.xtools.utils.sup;
 
 import android.support.annotation.IntDef;
 

@@ -14,7 +14,7 @@ import java.io.File;
  */
 public class SDCardUtil {
     public static final String UTIL_DESC = "SDCard工具类";
-    public static final String UTIL_NAME = SDCardUtil.class.getName();
+    public static final String UTIL_NAME = SDCardUtil.class.getSimpleName();
 
     private SDCardUtil() {
     }

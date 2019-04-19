@@ -14,7 +14,7 @@ import com.yzk.xtools.app.ToolsApplication;
 public class NetWorkUtil {
 
     public static final String UTIL_DESC = "网络管理器工具类";
-    public static final String UTIL_NAME = NetWorkUtil.class.getName();
+    public static final String UTIL_NAME = NetWorkUtil.class.getSimpleName();
 
     /**
      * 检测网络是否连接

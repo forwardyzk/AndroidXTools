@@ -15,7 +15,7 @@ import java.io.File;
  */
 public class PhoneUtil {
     public static final String UTIL_DESC = "手机组件工具类";
-    public static final String UTIL_NAME = PhoneUtil.class.getName();
+    public static final String UTIL_NAME = PhoneUtil.class.getSimpleName();
 
     private static long lastClickTime;
 

@@ -16,7 +16,7 @@ public class ReflectUtil {
 
 
     public static final String UTIL_DESC = "反射工具类";
-    public static final String UTIL_NAME = ReflectUtil.class.getName();
+    public static final String UTIL_NAME = ReflectUtil.class.getSimpleName();
 
 
     private ReflectUtil() {

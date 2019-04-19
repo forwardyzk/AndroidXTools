@@ -1,5 +1,7 @@
 package com.yzk.xtools.utils;
 
+import com.yzk.xtools.utils.sup.MemoryConstant;
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -27,7 +29,7 @@ import java.util.List;
 public final class IOFileUtil {
 
     public static final String UTIL_DESC = "IO流文件工具类";
-    public static final String UTIL_NAME = IOFileUtil.class.getName();
+    public static final String UTIL_NAME = IOFileUtil.class.getSimpleName();
 
     private IOFileUtil() {
         throw new UnsupportedOperationException("u can't instantiate me...");
